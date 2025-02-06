@@ -1,7 +1,6 @@
 import { createSocket, RemoteInfo, type Socket } from 'node:dgram';
 import { EventEmitter } from 'node:events';
 import { networkInterfaces } from 'node:os';
-import util from 'node:util';
 
 const SSDP_ADDRESS = '239.255.255.250';
 const SSDP_PORT = 1900;
